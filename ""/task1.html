@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Keshav Sharma</title>
+	<link href="icon.png" rel="icon">
+	<link rel="stylesheet" type="text/css" href="css/task1.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="row clearfix">
+				<a href="task1.html"><img src="images/logo.jpg" class="logo" alt="image"></a>
+
+				<ul class = "main-nav animated fadeInDown" id="check-class">
+					<li id="current"><a href = "task1.html">Home</a></li>
+					<li><a href = "aboutme.html">About Me</a></li>
+					<li><a href = "interests.html">Interests</a></li>
+					<li><a href = "aboutwebsite.html">About Website</a></li>
+				</ul>
+				<a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+			</div>
+		</nav>
+
+		<div class="main-content-header">
+		<h1><span class="colorchange"><strong>Hi</strong>!!!</span> This is Keshav Sharma<br>
+		(A Fullstack Web-Developer)</h1>
+			<a href="CV_Keshav_Sharma.pdf" target="_blank" class="btn btn-res">Resumé</a>
+			<a href="https://github.com/KeshavSharma21099" target="_blank" class="btn btn-git">GitHub</a>
+			<a href="https://www.linkedin.com/in/keshav-sharma-465a55172/" target="_blank" class="btn btn-lin">LinkedIn</a>
+			<a href="https://www.hackerearth.com/@iit2018130" target="_blank" class="btn btn-hac">HackerEarth</a>
+		</div>
+	</header>
+
+	<script>
+		
+		function slideshow(){
+			var x = document.getElementById('check-class');
+			if(x.style.display === "none"){
+				x.style.display = "block";
+			}
+			else{
+				x.style.display = "none";
+			}
+		}
+	</script>
+
+</body>
+</html>

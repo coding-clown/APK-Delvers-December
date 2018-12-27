@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Website: Keshav Sharma</title>
+	<link href="icon.png" rel="icon">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="row clearfix">
+				<a href="task1.html"><img src="images/logo.jpg" class="logo" alt="image"></a>
+
+				<ul class = "main-nav animated fadeInDown" id="check-class">
+					<li><a href = "task1.html">Home</a></li>
+					<li><a href = "aboutme.html">About Me</a></li>
+					<li><a href = "interests.html">Interests</a></li>
+					<li id="current"><a href = "aboutwebsite.html">About Website</a></li>
+				</ul>
+				<a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+			</div>
+		</nav>
+
+		<div class="main-content-header">
+			<h1 id="heading">About Website</h1>
+			<p>This Website is based on the Developer's personal information (refering myself as the third person ;P). It is originally developed as a task for the prestigious Aproksha '19 of IIIT Allahabad. I have not given all my technical and educational qualifications in this website. If you wanna see that... You can head over to my <a class="plinks" href="CV_Keshav_Sharma.pdf" target="_blank">Resumé</a>.</p>
+
+			<p>This Making of this Website made the use of HTML5, CSS3 & javascript. All the font used is 'Flamenco' of google-fonts. This a totally Responsive Website which adapts according to the screen dimensions so as to provide an impressive interface irrespective of the device you use.</p>
+		</div>
+	</header>
+
+	<script>
+		
+		function slideshow(){
+			var x = document.getElementById('check-class');
+			if(x.style.display === "none"){
+				x.style.display = "block";
+			}
+			else{
+				x.style.display = "none";
+			}
+		}
+	</script>
+</body>
+</html>
