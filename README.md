@@ -6,7 +6,7 @@
 2. On your computer, make a folder and place your code (all of the html/css files) in that folder. Name the files "task1.html/task1.css" and name the folder "Your Name".
 3. Head over to this repo. 
 4. Fork this repo by clicking on the Fork button in the top-right corner.
-5. You'll be redirected to your fork. The URL will be something like "https://github.com/<yourUserName>/APK-Delvers-December".
+5. You'll be redirected to your fork. The URL will be something like "https://github.com/yourUserName/APK-Delvers-December".
 6. Click on the "Upload Files" button.
 7. Drag and drop the folder that you created earlier.
 8. In the 'Commit Changes' section, write "Task 1" in place of "Add files via upload".
